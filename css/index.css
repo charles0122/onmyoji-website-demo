@@ -1,0 +1,484 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 150px;
+}
+header p{
+    text-align: center;
+}
+header img{
+    width: 150px;
+    margin: 0 auto;
+}
+header nav{
+    width: 100%;
+    height: 56px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: royalblue;
+}
+header nav ul{
+    width: 1200px;
+    margin: 0 auto;
+    color: white;
+}
+header nav a{
+    display: block;
+    width: 200px;
+    height: 56px;
+    color: white;
+    line-height: 56px;
+    float: left;
+}
+header nav a:hover{
+    background-color: orangered;
+}
+header nav #aa{
+    background-color: orangered;
+}
+.banner{
+    width: 100%;
+    height: 650px;
+    line-height: 90px;
+    color: royalblue;
+    font-family: "华文宋体";
+    font-weight: 900;
+    text-align: center;
+    font-size: 60px;
+    overflow: hidden;
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.banner .gif{
+    width: 1200px;
+    position: absolute;
+    right: 0;
+    left: auto;
+    top: auto;
+    transform: rotate(160deg);
+}
+.banner2{
+    height: 570px;
+}
+h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: royalblue;
+    text-align: center;
+}
+.dmjs{
+    width: 1200px;
+    margin: 0px auto;
+    position: relative;
+    margin-top: 60px;
+    font-size: 20px;
+    line-height: 50px;
+    overflow: hidden;
+}
+.dmjs img{
+    margin-top: 15px;
+    width: 380px;
+}
+.dmjs img.img1{
+    margin-right: 20px;
+    float: left;
+}
+.dmjs img.img2{
+    position: relative;
+    right: 0;
+    bottom: 0;
+    float: right;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.rwjs{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 60px;
+}
+.rwjs table tr td{
+    position: relative;
+    overflow: hidden;
+}
+.rwjs table tr td img{
+    width: 298px;
+    height: 500px;
+    margin-top: 30px;
+}
+.rwjs table tr td a{
+    display: inline-block;
+    width: 258px;
+    height: 460px;
+    margin-top: 30px;
+    line-height: 60px;
+    position: absolute;
+    left: -298px;
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(255, 138, 71, 0.8);
+    transition: all 0.5s;
+}
+.rwjs table tr td a u{
+    display: inline-block;
+    line-height: 30px;
+}
+.rwjs table tr td:hover a{
+    display: inline-block;
+    width: 258px;
+    height: 460px;
+    position: absolute;
+    left: 0;
+    opacity: 1;
+}
+.rwjs a:nth-last-child(1){
+    display: block;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin: 20px auto;
+    color: white;
+    background-color: royalblue;
+}
+.rwjs a:nth-last-child(1):hover{
+    background-color: orangered;
+}
+.jmbz{
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 70px;
+    overflow: hidden;
+}
+.jmbz table{
+    position: relative;
+    right: -170px;
+    top: -100px;
+    transform: rotate(-45deg);
+    border-collapse: separate;
+    border-spacing: 20px 20px;
+}
+.jmbz table tr td{
+    /* background-color: #1f7457; */
+    width: 260px;
+    height: 260px;
+    overflow: hidden;
+}
+.jmbz img{
+    width: 260px;
+    height: 260px;
+    transform: rotate(45deg) scale(1.5);
+}
+.jmbz a{
+    display: block;
+    width: 180px;
+    height: 50px;
+    position: relative;
+    top: -320px;
+    text-align: center;
+    line-height: 50px;
+    margin: 20px auto;
+    color: white;
+    background-color: royalblue;
+}
+.jmbz a:hover{
+    background-color: orangered;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    padding-top: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+    margin-top: 60px;
+    background-color: rgb(10, 7, 37);
+}
+
+/* 关于我们 */
+.gywm{
+    width: 1200px;
+    margin: 0px auto;
+    position: relative;
+    font-size: 17px;
+    line-height: 2.3em;
+    overflow: hidden;
+    margin-top: 60px;
+}
+.img1{
+    width: 540px;
+    float: left;
+    margin-right: 40px;
+}
+
+/* 人物介绍 */
+.rwjs2{
+    width: 1200px;
+    height: 2200px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.rwjs2 .aaa{
+    margin-bottom: 80px;
+    float: left;
+    cursor: pointer;
+}
+.rwjs2 .aaa img{
+    width: 260px;
+    height: 416px;
+    float: left;
+    position: relative;
+    transition: all 0.6s;
+}
+.rwjs2 .aaa p{
+    width: 280px;
+    height: 500px;
+    position: absolute;
+    left: 300px;
+    border: 3px solid royalblue;
+    z-index: -1;
+}
+
+.rwjs2 .aaa span{
+    display: inline-block;
+    width: 155px;
+    height: 35px;
+    padding-top: 15px;
+    padding-left: 5px;
+    margin: 10px 0px;
+    color: white;
+    background-color: orangered;
+    transition: all 0.6s;
+}
+.rwjs2 .aaa_right{
+    width: 740px;
+    height: 464px;
+    padding: 20px;
+    line-height: 42px;
+    float: right;
+    margin-bottom: 30px;
+    border-bottom: 2px dashed royalblue;
+}
+.rwjs2 .aaa:hover img{
+    transform: translateX(-38px);
+}
+.rwjs2 .aaa:hover span{
+    transform: translateX(-28px);
+}
+
+
+.rwjs2 .bbb{
+    margin-bottom: 80px;
+    float: right;
+    cursor: pointer;
+}
+.rwjs2 .bbb img{
+    width: 260px;
+    height: 416px;
+    float: right;
+    position: relative;
+    transition: all 0.6s;
+}
+.rwjs2 .bbb p{
+    width: 280px;
+    height: 500px;
+    position: absolute;
+    right: 300px;
+    border: 3px solid royalblue;
+    z-index: -1;
+}
+.rwjs2 .bbb span{
+    display: inline-block;
+    width: 155px;
+    height: 35px;
+    padding-top: 15px;
+    padding-left: 5px;
+    margin: 10px 0px;
+    color: white;
+    background-color: rgb(71, 187, 255);
+    transition: all 0.6s;
+}
+.rwjs2 .bbb_right{
+    width: 740px;
+    height: 464px;
+    padding: 20px;
+    line-height: 42px;
+    float: left;
+    margin-bottom: 30px;
+    border-bottom: 2px dashed royalblue;
+}
+.rwjs2 .bbb:hover img{
+    transform: translateX(38px);
+}
+.rwjs2 .bbb:hover span{
+    transform: translateX(28px);
+}
+
+.rwjs2 .bzh p{
+    border: 3px solid orangered;
+}
+.rwjs2 .cm p{
+    border: 3px solid #2d377a;
+}
+.rwjs2 .cm span{
+    background-color: #2d377a;
+}
+.rwjs2 .bl p{
+    border: 3px solid rgb(221, 77, 173);
+}
+.rwjs2 .bl span{
+    background-color: rgb(221, 77, 173);
+}
+.rwjs2 .yc p{
+    border: 3px solid #1f7457;
+}
+.rwjs2 .yc span{
+    background-color: #1f7457;
+}
+
+
+/* 角色壁纸 */
+.jsbz{
+    width: 1200px;
+    height: 3050px;
+    margin: 0 auto;
+    margin-top: 60px;
+    overflow: hidden;
+}
+.jsbz table{
+    border-collapse: separate;
+    border-spacing: 20px 20px;
+    position: relative;
+}
+.jsbz table tr td{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.jsbz table tr td::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(../img/gd.gif) no-repeat center/100%;
+    z-index: 2;
+}
+.jsbz table tr:nth-child(2) img{
+    width: 414px;
+    height: 200px;
+}
+.jsbz .td_img1 img{
+    width: 850px;
+    height: 480px;
+}
+.jsbz .td_img2 img{
+    width: 310px;
+    transform: scaleX(1.3);
+    position: relative;
+    top: 0;
+    height: 704px;
+}
+.jsbz .td_img2::before{
+    transform: scale(2);
+}
+.jsbz .table2{
+    padding-left: 20px;
+    position: relative;
+    transform: rotateY(180deg);
+}
+.hh2{
+    text-align: center;
+    color: #ccc;
+}
+
+/* 帮助中心 */
+.bzzx{
+    width: 1200px;
+    height: 750px;
+    margin: 0px auto;
+    position: relative;
+    margin-top: 60px;
+    font-size: 20px;
+    line-height: 40px;
+    overflow: hidden;
+}
+.content h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: "宋体";
+    color: rgb(143, 112, 146);
+}
+.content form{
+    letter-spacing: 5px;
+    width: 700px;
+    margin:auto;
+}
+form input{
+    font-size: 16px;
+    border:1.5px #A58360 solid;
+    width: 692px;
+    height: 32px;
+    background-color: rgb(254, 245, 255);
+}
+form textarea{
+    width: 692px;
+    height: 150px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: rgb(254, 245, 255);
+    border:1.5px #A58360 solid;
+    resize: none;
+}
+input.input{
+    margin-right: 299.25px;
+    float: right;
+    width: 100px;
+    color: #FfFFFF;
+    background-color: royalblue;
+}
+input.input:hover{
+    background-color: orangered;
+}
+input.fff{
+    font-size: 13.5px;
+    background-color: #fff;
+}
+
+/* 最新活动 */
+.zxhd{
+    width: 1200px;
+    height: 1350px;
+    margin: 0 auto;
+    margin-top: 60px;
+    overflow: hidden;
+}
+.zxhd ul li{
+    line-height: 28px;
+}
+.zxhd img{
+    width: 260px;
+    height: 200px;
+    float: left;
+}
+.zxhd p{
+    width: 20px;
+    height: 60px;
+    float: left;
+}
